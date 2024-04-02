@@ -9,13 +9,159 @@
 
 \maketitle
 
+\section{Introduction}
+The rapid evolution of blockchain technology has revolutionized various industries, but its adoption in low bandwidth environments remains a significant challenge. Conventional blockchain protocols rely on high-speed internet connections, making them unsuitable for regions with limited connectivity or in situations where traditional communication channels are disrupted. This paper introduces BunkerCoin, a novel blockchain protocol designed to operate under the constraints of low bandwidth networks, specifically through shortwave radio channels. BunkerCoin aims to enable secure, decentralized communications in bandwidth-constrained environments worldwide, marking a significant leap forward in the field of distributed ledger technology.
+
 \begin{abstract}
-The rapid evolution of blockchain technology has demanded innovative solutions that extend beyond conventional digital landscapes. This paper introduces BunkerCoin, a groundbreaking blockchain protocol designed to operate under the constraints of low bandwidth networks, specifically through shortwave radio channels. At the heart of BunkerCoin is the adoption of a recursive possidon hash function, which underpins a novel proof of elapsed time (PoET) verifiable delay function (VDF). This VDF serves as the cornerstone for miners to identify a 'golden ticket'—a unique sequence of bits that not only signifies the discovery of a valid block but also correlates with the miner's public key and the duration for which a specific amount of coin has been held.
+BunkerCoin is a groundbreaking blockchain protocol designed to operate under the constraints of low bandwidth networks, specifically through shortwave radio channels. At the heart of BunkerCoin is the adoption of a recursive Poseidon hash function, a lightweight and efficient hash function well-suited for resource-constrained environments. This hash function underpins a novel proof of elapsed time (PoET) verifiable delay function (VDF), which serves as the cornerstone for miners to identify a 'golden ticket'—a unique sequence of bits that not only signifies the discovery of a valid block but also correlates with the miner's public key and the duration for which a specific amount of coin has been held.
 
-To ensure the integrity and confidentiality of this process, BunkerCoin leverages a recursive Zero-Knowledge Proof (ZKP), constructed using the Groth16 proving scheme. This allows miners to validate the existence of the golden ticket and concurrently seal the transaction block's hash without revealing the ticket itself. The propagation of these blocks over shortwave radio is meticulously engineered to accommodate the protocol's 300-byte Maximum Transmission Unit (MTU), with each block being disseminated through a series of 32:96 erasure coded frames over a fixed five-minute interval, ensuring reliability and redundancy.
+To ensure the integrity and confidentiality of this process, BunkerCoin leverages a recursive Zero-Knowledge Proof (ZKP), constructed using an incrementally verifiable computation (IVC) based on Nova folding schema compressed with Groth16. This allows miners to validate the existence of the golden ticket and concurrently seal the transaction block's hash without revealing the ticket itself. The propagation of these blocks over shortwave radio is meticulously engineered to accommodate the protocol's 300-byte Maximum Transmission Unit (MTU), with each block being disseminated through a series of 32:96 erasure coded frames over a fixed five-minute interval, ensuring reliability and redundancy.
 
-Central to the protocol's consensus mechanism is the Nakamoto-style longest chain rule, which harmonizes with the unique transmission and validation processes to uphold network security and integrity. BunkerCoin's architecture not only challenges traditional blockchain paradigms but also paves the way for secure, decentralized communications in bandwidth-constrained environments worldwide, marking a significant leap forward in the field of distributed ledger technology.
+Central to the protocol's consensus mechanism is the Nakamoto-style longest chain rule, which harmonizes with the unique transmission and validation processes to uphold network security and integrity. BunkerCoin's architecture not only challenges traditional blockchain paradigms but also paves the way for secure, decentralized communications in bandwidth-constrained environments worldwide.
 \end{abstract}
 
-\end{document}
+Here's the updated whitepaper with the reference included:
 
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{BunkerCoin: A Low Bandwidth, Shortwave Radio-Compatible Blockchain Protocol}
+\author{Anatoly Yakovenko}
+\date{April 1st, 2024}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+The rapid evolution of blockchain technology has revolutionized various industries, but its adoption in low bandwidth environments remains a significant challenge. Conventional blockchain protocols rely on high-speed internet connections, making them unsuitable for regions with limited connectivity or in situations where traditional communication channels are disrupted. This paper introduces BunkerCoin, a novel blockchain protocol designed to operate under the constraints of low bandwidth networks, specifically through shortwave radio channels. BunkerCoin aims to enable secure, decentralized communications in bandwidth-constrained environments worldwide, marking a significant leap forward in the field of distributed ledger technology.
+
+\begin{abstract}
+BunkerCoin is a groundbreaking blockchain protocol designed to operate under the constraints of low bandwidth networks, specifically through shortwave radio channels. At the heart of BunkerCoin is the adoption of a recursive Poseidon hash function, a lightweight and efficient hash function well-suited for resource-constrained environments. This hash function underpins a novel proof of elapsed time (PoET) verifiable delay function (VDF), which serves as the cornerstone for miners to identify a 'golden ticket'—a unique sequence of bits that not only signifies the discovery of a valid block but also correlates with the miner's public key and the duration for which a specific amount of coin has been held.
+
+To ensure the integrity and confidentiality of this process, BunkerCoin leverages a recursive Zero-Knowledge Proof (ZKP), constructed using an incrementally verifiable computation (IVC) based on Nova folding schema compressed with Groth16. This allows miners to validate the existence of the golden ticket and concurrently seal the transaction block's hash without revealing the ticket itself. The propagation of these blocks over shortwave radio is meticulously engineered to accommodate the protocol's 300-byte Maximum Transmission Unit (MTU), with each block being disseminated through a series of 32:96 erasure coded frames over a fixed five-minute interval, ensuring reliability and redundancy.
+
+Central to the protocol's consensus mechanism is the Nakamoto-style longest chain rule, which harmonizes with the unique transmission and validation processes to uphold network security and integrity. BunkerCoin's architecture not only challenges traditional blockchain paradigms but also paves the way for secure, decentralized communications in bandwidth-constrained environments worldwide.
+\end{abstract}
+
+\section{Proof of Elapsed Time (PoET) Verifiable Delay Function (VDF)}
+BunkerCoin introduces a novel consensus mechanism based on a proof of elapsed time (PoET) verifiable delay function (VDF). Unlike traditional proof of work (PoW) or proof of stake (PoS) consensus mechanisms, PoET leverages the passage of time as a critical factor in block validation. In BunkerCoin, miners compete to find a 'golden ticket'-a unique sequence of bits that not only signifies the discovery of a valid block but also correlates with the miner's public key and the duration for which a specific amount of coin has been held. This approach ensures a fair distribution of mining power and helps limit the centralization of the network.
+
+PoET VDF is built upon the recursive Poseidon hash function, a lightweight and efficient hash function well-suited for resource-constrained environments. The recursive Poseidon hash function is used to generate the golden ticket, which is then validated using a recursive Zero-Knowledge Proof (ZKP) constructed using an incrementally verifiable computation (IVC) based on Nova folding schema compressed with Groth16. This combination of PoET VDF and ZKP ensures the security and privacy of the mining process while maintaining the protocol's low bandwidth requirements.
+
+\section{Recursive Zero-Knowledge Proof (ZKP) and Incrementally Verifiable Computation (IVC)}
+BunkerCoin employs a recursive Zero-Knowledge Proof (ZKP) to ensure the integrity and confidentiality of the mining process. The ZKP allows miners to validate the existence of the golden ticket without revealing the ticket itself, preserving the privacy of the miner and preventing potential attacks on the network.
+
+The recursive ZKP is constructed using an incrementally verifiable computation (IVC) based on Nova folding schema compressed with Groth16. IVC is a technique that allows for the efficient verification of computations performed on large datasets, which is particularly relevant in the context of blockchain protocols. The Nova folding schema is a specific approach to IVC that enables the compression of proofs, reducing the computational overhead and storage requirements.
+
+By combining the Nova folding schema with the Groth16 proving scheme, the BunkerCoin protocol benefits from the efficiency and security of both techniques. The Nova folding schema helps to minimize the size of the proofs, while the Groth16 scheme ensures that the proofs are non-interactive and can be verified quickly. This approach ensures that the mining process remains secure and private while minimizing the computational and communication overhead, making it well-suited for the low bandwidth environment in which BunkerCoin operates.
+
+\section{Technical Implementation}
+BunkerCoin's architecture is designed to accommodate the unique challenges of low bandwidth environments, particularly those associated with shortwave radio communication. The protocol employs a carefully considered combination of design choices, including a 300-byte Maximum Transmission Unit (MTU) and a 32:96 erasure coding scheme, to ensure reliable and efficient data transmission in the face of limited bandwidth, signal fading, and noise interference.
+
+\subsection{Maximum Transmission Unit (MTU)}
+The choice of a 300-byte MTU for BunkerCoin is primarily driven by the need to optimize data transmission for the unique characteristics and limitations of shortwave radio communication. Shortwave radio operates in the High Frequency (HF) band, typically between 3 MHz and 30 MHz, which allows for long-distance communication but also introduces several challenges, such as:
+
+\begin{enumerate}
+\item Limited bandwidth: The available bandwidth in the HF spectrum is relatively narrow compared to higher frequency bands, limiting the amount of data that can be transmitted over a given time period.
+\item Signal fading: Shortwave radio signals are prone to fading due to changes in the ionosphere and other atmospheric conditions, resulting in intermittent connectivity and reduced data throughput.
+\item Noise and interference: The HF band is susceptible to various sources of noise and interference, including atmospheric noise, man-made noise, and signal interference from other users operating in the same frequency range.
+\end{enumerate}
+
+Given these general constraints associated with shortwave transmissions, BunkerCoin adopts a smaller MTU of 300 bytes to ensure reliable and efficient data transmission. This MTU size strikes a balance between minimizing the impact of signal fading and interference while still allowing for sufficient data to be transmitted in each frame. By using a smaller MTU, BunkerCoin can:
+
+\begin{enumerate}
+\item Reduce the time required to transmit each frame, minimizing the chances of signal fading or interruption during transmission.
+\item Allow for more frequent error checking and correction, as smaller frames can be more easily retransmitted if needed.
+\item Increase the overall robustness of the protocol, as the impact of lost or corrupted frames is minimized when compared to using larger MTUs.
+\end{enumerate}
+
+\subsection{Erasure Coding and Redundancy}
+To further compensate for the limitations of the limited MTU size and to ensure reliable data transmission, BunkerCoin employs a 32:96 erasure coding scheme. Erasure coding is a method of data protection that allows for the recovery of lost or corrupted data without the need for retransmission, making it particularly well-suited for use in low bandwidth, high-latency environments.
+
+In the 32:96 erasure coding scheme, each block of transaction data is divided into 32 equal-sized segments, which are then encoded into 96 segments using a mathematical algorithm, such as Reed-Solomon. This encoding process ensures that the original data can be reconstructed from any 32 out of the 96 encoded segments, providing a high level of redundancy and fault tolerance.
+
+The choice to use the Reed-Solomon algorithm is based on several key benefits that make it well-suited for the challenges of shortwave radio communication. Reed-Solomon codes provide optimal erasure correction capabilities, ensuring efficient recovery of the original data from a minimum number of encoded segments. In this context, "optimal" refers to the fact that Reed-Solomon codes are Maximum Distance Separable (MDS) codes, which means they offer the best possible erasure correction performance among all linear erasure coding schemes for a given level of redundancy. The computational efficiency of the encoding and decoding processes, combined with the flexibility in code parameters, allows BunkerCoin to strike an optimal balance between redundancy, computational complexity, and transmission overhead. Additionally, Reed-Solomon codes are robust against burst errors, which are common in wireless communication channels, and their extensive research and implementation history provides a solid foundation for their use in BunkerCoin. Finally, the ability to begin the decoding process as soon as a sufficient number of segments have been received makes Reed-Solomon codes suitable for low-latency applications, such as real-time transaction processing in BunkerCoin, where minimizing the delay between data transmission and recovery is crucial.
+
+The erasure coding process in BunkerCoin can be broken down into the following steps:
+
+\begin{enumerate}
+\item Data preparation: Each block of transaction data is first divided into 32 equal-sized segments.
+\item Encoding: The 32 data segments are then encoded using a Reed-Solomon erasure coding algorithm, generating 96 encoded segments. Each encoded segment contains a unique combination of the original data segments, along with additional error-correcting information.
+\item Transmission: The 96 encoded segments are transmitted over the shortwave radio channel in a predetermined sequence, with each segment being sent as a separate frame. The smaller frame size (300 bytes) helps to minimize the impact of signal fading and interference during transmission.
+\item Reception: As the encoded segments are received by the destination node, they are stored in a buffer until a sufficient number of segments have been collected to reconstruct the original data.
+\item Decoding: Once at least 32 out of the 96 encoded segments have been received, the original data can be reconstructed using the erasure coding algorithm. This process involves solving a system of linear equations to recover the missing data segments based on the available encoded segments.
+\end{enumerate}
+
+The key advantage of the 32:96 erasure coding scheme is its ability to recover the original data even if up to 64 out of the 96 encoded segments are lost or corrupted during transmission. This high level of redundancy is essential in the context of shortwave radio communication, where signal fading, interference, and other factors can lead to significant data loss.
+
+Moreover, the use of erasure coding eliminates the need for retransmission of lost or corrupted data, which would be impractical in a high-latency, low bandwidth environment. Instead, the destination node can simply wait until a sufficient number of encoded segments have been received before reconstructing the original data, thereby minimizing the impact of transmission errors on overall performance.
+
+\subsection{Network Architecture and Block Propagation}
+The BunkerCoin network consists of a decentralized mesh of nodes, each capable of mining new blocks and validating transactions. Nodes communicate with each other using a custom protocol optimized for low bandwidth communication, with messages being compressed and encrypted to minimize overhead and ensure security, respectively.
+
+Upon joining the network, each node generates a unique public-private key pair using the Ed25519 digital signature algorithm. The public key serves as the node's identity on the network, while the private key is used to sign transactions and validate blocks.
+
+Nodes maintain a local copy of the blockchain, which is synchronized with the rest of the network through a gossip protocol. When a node discovers a new block, it broadcasts the block to its peers, who in turn validate the block and propagate it to their own peers. This process continues until the block has been disseminated throughout the entire network.
+
+To minimize the bandwidth required for block propagation, BunkerCoin employs a compact block relay protocol. Instead of transmitting entire blocks, nodes first broadcast a block header and a list of transaction IDs. Peers can then request the full transactions from the originating node if they do not already have them in their local mempool.
+
+\subsection{Transaction Processing and Block Mining}
+Transaction processing in BunkerCoin follows a standard UTXO (Unspent Transaction Output) model, with each transaction consuming one or more UTXOs and creating new ones. Transactions are validated by the network using a combination of digital signatures and the recursive ZKP, ensuring that only legitimate transactions are included in the blockchain.
+
+Block mining in BunkerCoin is performed using the proof of elapsed time (PoET) verifiable delay function (VDF). To mine a new block, nodes first select a set of transactions from their local mempool and bundle them into a candidate block. The node then computes the recursive Poseidon hash of the candidate block header and uses this hash as the input to the PoET VDF. The VDF requires the node to compute a series of sequential hash functions, with the number of iterations determined by the node's stake in the network (i.e., the amount of BunkerCoin they hold).
+
+Once the VDF computation is complete, the node checks the final output to see if it meets the network's difficulty target. If the output satisfies the difficulty target, the node has found a valid 'golden ticket' and can broadcast the new block to the network.
+
+To prove that the golden ticket is valid without revealing the ticket itself, the node constructs a recursive ZKP using an incrementally verifiable computation (IVC) based on Nova folding schema compressed with Groth16. This ZKP is included in the block header and allows other nodes to verify the validity of the golden ticket without needing to know its actual value.
+
+Upon receiving a new block, nodes first verify the recursive ZKP to ensure that the block contains a valid golden ticket. They then check that all transactions in the block are valid and that the block header hash meets the network's difficulty target. If the block passes these checks, the node adds it to its local copy of the blockchain and propagates it to its peers. In the event of a fork (i.e., two or more blocks being mined at the same height), nodes will always choose the chain with the most cumulative proof of elapsed time, as this represents the chain with the most aggregate stake and hence the most secure chain.
+
+\section{Potential Applications and Use Cases}
+BunkerCoin's unique design makes it well-suited for a wide range of applications in bandwidth-constrained environments. Some potential use cases include:
+
+\begin{enumerate}
+\item Secure communication in remote or underdeveloped regions with limited internet connectivity.
+\item Emergency communication during natural disasters or other crises that disrupt traditional communication channels.
+\item Decentralized financial services for unbanked or underbanked populations.
+\item Supply chain management and tracking in areas with poor infrastructure.
+\item Secure data sharing and collaboration among organizations operating in low bandwidth environments.
+
+BunkerCoin's ability to operate over shortwave radio channels opens up new possibilities for blockchain adoption in previously underserved markets and industries.
+
+\section{Scalability and Performance}
+The scalability of a blockchain network is heavily influenced by several key factors, including its throughput capacity, available bandwidth, hash rate performance, latency characteristics, and the efficiency of its data transaction processing capabilities \cite{eklund2019factors}.
+
+BunkerCoin's low bandwidth design presents unique challenges in terms of scalability and performance. The protocol's 300-byte MTU and fixed five-minute block interval limit the maximum throughput of the network, making it unsuitable for high-frequency trading or other applications that require real-time transaction processing.
+
+However, BunkerCoin's architecture is optimized for efficient propagation and validation of blocks, even in low bandwidth environments. Future simulations and benchmarks may show that the protocol can achieve a sustained throughput of 10-20 transactions per second (TPS) under typical shortwave radio conditions, with confirmation times of 10-15 minutes. While these figures may not compete with high-performance blockchain protocols operating over broadband networks, they are likely to represent a significant improvement over existing solutions for low bandwidth environments.
+
+As the BunkerCoin network grows and more nodes join the network, the protocol's performance is expected to improve, thanks to the increased redundancy and parallel processing capabilities of the mesh network. Future optimizations, such as the introduction of sharding or side-chains, could further enhance the scalability and performance of the protocol.
+
+\section{Challenges and Future Work}
+While BunkerCoin represents a significant step forward in the development of low bandwidth blockchain protocols, several challenges remain to be addressed and further research is needed to ensure the robustness and security of the system.
+
+One key challenge is the limited computational power of nodes operating in low bandwidth environments, which may make it difficult to perform complex cryptographic operations or validate large numbers of transactions. To address this, future work should focus on developing more efficient algorithms and data structures to minimize the computational burden on nodes. While the Poseidon hash function is designed to minimize the number of field operations required for hashing, making it more efficient than other widely-used hash functions in the context of zero-knowledge proofs and other cryptographic protocols, and this efficiency makes it an ideal choice for resource-constrained environments, such as those encountered in the BunkerCoin protocol, the implementation should be described in greater detail, highlighting its advantages and specific suitability for the BunkerCoin protocol. 
+
+Another challenge is the potential for network fragmentation and partitioning, particularly in environments with intermittent connectivity or high levels of interference. While BunkerCoin's erasure coding and redundancy mechanisms help to mitigate these issues, further research is needed to develop more robust solutions for maintaining network connectivity and consensus in the face of disruptions. BunkerCoin's design should be carefully analyzed to ensure that it can withstand various types of adversarial behavior and maintain network integrity under challenging conditions. BunkerCoin should address the potential effects of radio interference and signal degradation on the protocol's performance and security, proposing mitigation strategies and error correction mechanisms.
+
+The application of the Groth16 proving scheme in the context of BunkerCoin's recursive ZKP should also be clarified, discussing any limitations or trade-offs. While the Groth16 scheme enables efficient and secure non-interactive zero-knowledge proofs, it is important to consider the computational overhead and the potential impact on the protocol's scalability.
+
+Other less critical challenges that still require attention include the energy efficiency and environmental impact of the PoET consensus mechanism, the incentive structure for miners, potential regulatory challenges, and the governance model for the BunkerCoin protocol. While PoET offers a more energy-efficient alternative to proof-of-work (PoW) consensus, its long-term sustainability and potential impact on the environment should be carefully considered. Additionally, a clear explanation of miner rewards and how the protocol ensures fair distribution, as well as addressing potential regulatory challenges and compliance considerations, particularly in regions with varying legal frameworks for cryptocurrencies and decentralized systems, is needed. Finally, a robust governance model outlining how protocol upgrades, bug fixes, and other critical decisions will be made in a decentralized manner is essential for ensuring the long-term stability and adaptability of the protocol in response to changing market conditions and technological advancements.
+
+\section{Conclusion}
+BunkerCoin represents a significant breakthrough in the development of blockchain protocols for low bandwidth environments. By leveraging a novel proof of elapsed time (PoET) verifiable delay function (VDF) function, recursive zero-knowledge proofs, and a custom low-bandwidth communication protocol, BunkerCoin enables secure, decentralized communication and transaction processing in previously underserved markets and industries.
+
+While challenges remain in terms of scalability, performance, and network resilience, BunkerCoin's unique architecture and design principles pave the way for further innovation and development in this exciting new field. As the protocol continues to evolve and mature, it has the potential to unlock new possibilities for blockchain adoption and enable a more inclusive and equitable global financial system.
+
+Future research directions for BunkerCoin may include the development of more efficient consensus algorithms, the integration of off-chain scaling solutions, and the exploration of new applications and use cases for low bandwidth blockchain technology. By continuing to push the boundaries of what is possible with blockchain technology, BunkerCoin and its successors have the potential to transform the way we communicate, transact, and collaborate.
+
+\newpage
+\section*{References}
+\begin{thebibliography}{99}
+
+\bibitem{eklund2019factors}
+Eklund, P.W.; Beck, R. Factors that Impact Blockchain Scalability. In Proceedings of the 11th International Conference on Management of Digital EcoSystems, Limassol, Cyprus, 12–14 November 2019; pp. 126–133.
+
+\end{thebibliography}
+
+\end{document}
