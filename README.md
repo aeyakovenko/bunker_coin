@@ -1,4 +1,4 @@
-# BunkerCoin Whitepaper
+# Bunker Consensussy: A Low Bandwidth, Shortwave Radio-Compatible Blockchain Protocol with Alternative Consensus Mechanisms
 
 This repository contains the LaTeX source for the BunkerCoin whitepaper: "A Low Bandwidth, Shortwave Radio-Compatible Blockchain Protocol" by Anatoly Yakovenko.
 
