@@ -1438,7 +1438,7 @@ Language Compile (s) & 3.2 & N/A & N/A & N/A & N/A \\
 \hline
 Total Latency (min) & 2.5 & 5.0 & N/A & N/A & 2.0x \\
 \hline
-Energy (W⋅h/tx) & 0.08 & 0.12 & N/A & N/A & 1.5x \\
+Energy (W$\cdot$h/tx) & 0.08 & 0.12 & N/A & N/A & 1.5x \\
 \hline
 \end{tabular}
 \end{table}
@@ -1489,7 +1489,23 @@ Future work will focus on:
 \item \textbf{Atmospheric Modeling Integration}: Real-time ionospheric condition modeling for dynamic consensus adaptation
 \item \textbf{Multi-frequency Coordination}: Protocols for coordinated use of multiple radio frequencies for enhanced throughput
 \item \textbf{Quantum-Resistant Adaptations}: Quantum-safe adaptations of ROZKP and ROC protocols for future security
-\item \textbf{Satellite-Terrestrial Hybrid}: Integration of satellite links with shortwave radio for global coverage
+\item \textbf{Satellite-Terrestrial Hybrid Networks}: A critical area for future development involves the seamless integration of satellite communication links with terrestrial shortwave radio networks to achieve truly global coverage for Bunker Consensussy. This hybrid approach presents several significant technical challenges and opportunities:
+
+\textbf{Dual-Path Protocol Architecture}: Development of adaptive protocols that can dynamically route consensus messages through either satellite or terrestrial paths based on real-time network conditions. The protocol must handle the fundamental asymmetry between satellite links (high latency, high bandwidth, global reach) and shortwave radio (variable latency, low bandwidth, regional coverage).
+
+\textbf{Latency Compensation Mechanisms}: Satellite communication introduces 500-1500ms round-trip latency depending on orbit altitude, which significantly impacts consensus timing. Novel temporal synchronization protocols are needed to maintain consensus integrity when some nodes communicate via 5-minute shortwave propagation while others use near-instantaneous satellite links.
+
+\textbf{Hierarchical Consensus Bridging}: Implementation of multi-tier consensus where local shortwave clusters achieve rapid local consensus, while satellite links enable global coordination between clusters. This requires sophisticated consensus bridging algorithms that maintain security properties across heterogeneous network segments.
+
+\textbf{Frequency Coordination and Interference Management}: Satellite and terrestrial radio systems must coordinate frequency usage to minimize interference. This includes dynamic spectrum allocation protocols that adapt to ionospheric conditions affecting both communication mediums simultaneously.
+
+\textbf{Security Implications of Dual-Path Communication}: The integration introduces new attack vectors, including satellite jamming, selective path blocking, and timing attacks exploiting latency differences. Enhanced cryptographic protocols must ensure message authenticity and prevent eclipse attacks when nodes have asymmetric connectivity.
+
+\textbf{Adaptive Routing and Path Selection}: Development of intelligent routing algorithms that select optimal communication paths based on message urgency, network congestion, atmospheric conditions, and energy constraints. Critical consensus messages may require redundant transmission via both satellite and terrestrial paths.
+
+\textbf{Emergency Backup and Failover Mechanisms}: When satellite links are compromised (solar flares, jamming, equipment failure), the network must gracefully degrade to shortwave-only operation while maintaining consensus integrity. Similarly, when atmospheric conditions prevent shortwave propagation, satellite links must handle increased load without overwhelming the network.
+
+\textbf{Global Synchronization and Time Coordination}: Integration with satellite-based precise timing systems (GPS, Galileo) to provide accurate timestamps across the hybrid network, enabling precise consensus timing despite varying propagation delays.
 \item \textbf{Emergency Response Applications}: Deployment in disaster response scenarios with real-world testing
 \item \textbf{Maritime and Remote Deployments}: Field testing in maritime and remote geographic environments
 \item \textbf{Cross-Layer Security}: Integration of physical-layer security with cryptographic protocols

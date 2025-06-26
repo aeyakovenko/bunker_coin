@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.26)  26 JUN 2025 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.26)  26 JUN 2025 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,7 +768,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count323
 \l__pdf_internal_box=\box95
 )
-(./bunker_coin.aux)
+No file bunker_coin.aux.
 \openout1 = `bunker_coin.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -789,7 +789,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -847,8 +846,6 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring ON on input line 41.
-
-(./bunker_coin.out) (./bunker_coin.out)
 \@outlinefile=\write4
 \openout4 = `bunker_coin.out'.
 
@@ -865,16 +862,81 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation `lightning' on page 2 undefined on input line 84.
+
+
+LaTeX Warning: Citation `kiayias2017ouroboros' on page 2 undefined on input lin
+e 84.
+
+
+LaTeX Warning: Citation `nakamoto2008bitcoin' on page 2 undefined on input line
+ 88.
+
+
+LaTeX Warning: Citation `king2012ppcoin' on page 2 undefined on input line 92.
+
+
+LaTeX Warning: Citation `kiayias2017ouroboros' on page 2 undefined on input lin
+e 92.
+
+[2]
+
+LaTeX Warning: Citation `castro1999practical' on page 3 undefined on input line
+ 98.
+
+
+LaTeX Warning: Citation `buchman2016tendermint' on page 3 undefined on input li
+ne 98.
+
+
+LaTeX Warning: Citation `gilad2017algorand' on page 3 undefined on input line 9
+8.
+
+
+LaTeX Warning: Citation `yin2019hotstuff' on page 3 undefined on input line 100
+.
+
+
+LaTeX Warning: Citation `popov2018tangle' on page 3 undefined on input line 104
+.
+
+
+LaTeX Warning: Citation `baird2016swirlds' on page 3 undefined on input line 10
+4.
+
+
+LaTeX Warning: Citation `sompolinsky2018phantom' on page 3 undefined on input l
+ine 104.
+
+
+LaTeX Warning: Citation `kelkar2020ebb' on page 3 undefined on input line 112.
+
+
+LaTeX Warning: Citation `boneh2018verifiable' on page 3 undefined on input line
+ 116.
+
+
+LaTeX Warning: Citation `grassi2021poseidon' on page 3 undefined on input line 
+118.
+
+
+LaTeX Warning: Citation `radio_bitcoin' on page 3 undefined on input line 122.
+
+[3] [4] [5] [6] [7] [8]
+
+LaTeX Warning: Reference `fig:throughput' on page 9 undefined on input line 438
+.
+
+
+LaTeX Warning: Reference `tab:error_correction' on page 9 undefined on input li
+ne 469.
 
 [9] [10] [11] [12]
-Overfull \hbox (6.3512pt too wide) in paragraph at lines 646--647
-\T1/cmr/m/n/10.95 Table [][]3[][] pro-vides a com-pre-hen-sive com-par-i-son of
- con-sen-sus mech-a-nisms adapted for low-bandwidth
- []
+
+LaTeX Warning: Reference `tab:consensus_comparison' on page 13 undefined on inp
+ut line 646.
 
 
 Overfull \hbox (97.81975pt too wide) in paragraph at lines 650--672
@@ -917,20 +979,6 @@ ame rep-re-sen-ta-tion, en-abling pow-er-ful metapro-
  []
 
 [22] [23] [24] [25]
-
-! LaTeX Error: Unicode character ⋅ (U+22C5)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1441 Energy (W⋅
-                   h/tx) & 0.08 & 0.12 & N/A & N/A & 1.5x \\
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
 Overfull \hbox (8.12456pt too wide) in paragraph at lines 1426--1444
  [][] 
  []
@@ -941,17 +989,20 @@ Overfull \hbox (9.50133pt too wide) in paragraph at lines 1485--1486
 im-ple-men-ta-tion and test-ing of the Radio-Optimized
  []
 
-
-Overfull \hbox (22.4399pt too wide) in paragraph at lines 1497--1498
+[28]
+Overfull \hbox (22.4399pt too wide) in paragraph at lines 1513--1514
 []\T1/cmr/bx/n/10.95 Interoperability Pro-to-cols\T1/cmr/m/n/10.95 : Stan-dards
  for in-ter-op-er-abil-ity be-tween dif-fer-ent ra-dio blockchain
  []
 
-[28] [29] [30] (./bunker_coin.aux)
+[29] [30] [31] (./bunker_coin.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -962,14 +1013,14 @@ Package rerunfilecheck Warning: File `bunker_coin.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `bunker_coin.out':
-(rerunfilecheck)             Before: C9980F03135FB1C899A97AE796DB48BA;12507
+(rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  537299E7C03D9455223D1587B47AFF53;21329.
  ) 
 Here is how much of TeX's memory you used:
- 24820 strings out of 476106
- 468340 string characters out of 5793933
+ 24745 strings out of 476106
+ 467104 string characters out of 5793933
  1939975 words of memory out of 5000000
- 46107 multiletter control sequences out of 15000+600000
+ 46037 multiletter control sequences out of 15000+600000
  576152 words of font info for 77 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  84i,16n,93p,815b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -996,10 +1047,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bunker_coin.pdf (30 pages, 378151 bytes).
+Output written on bunker_coin.pdf (31 pages, 375668 bytes).
 PDF statistics:
- 1412 PDF objects out of 1440 (max. 8388607)
- 753 compressed objects within 8 object streams
- 315 named destinations out of 1000 (max. 500000)
- 541 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1198 PDF objects out of 1200 (max. 8388607)
+ 539 compressed objects within 6 object streams
+ 316 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
