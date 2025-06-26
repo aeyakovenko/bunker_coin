@@ -1,0 +1,40 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.nav
+*.snm
+*.vrb
+*.bak
+*.bcf
+*.run.xml
+
+# LaTeX temporary files
+*~
+*.tmp
+
+# PDF files generated from different engines (keep main bunker_coin.pdf)
+bunker_coin_xelatex.pdf
+bunker_coin_lualatex.pdf
+
+# Editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# TeX distribution cache
+.texlive*/
