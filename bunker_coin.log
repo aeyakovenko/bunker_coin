@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.26)  26 JUN 2025 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.26)  26 JUN 2025 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,6 +847,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring ON on input line 41.
+
+(./bunker_coin.out) (./bunker_coin.out)
 \@outlinefile=\write4
 \openout4 = `bunker_coin.out'.
 
@@ -879,11 +881,80 @@ Overfull \hbox (97.81975pt too wide) in paragraph at lines 650--672
  [][] 
  []
 
-[13] [14] [15] [16] [17] (./bunker_coin.aux)
+[13]
+Overfull \hbox (6.35576pt too wide) in paragraph at lines 733--734
+\T1/cmr/m/n/10.95 Building upon the anal-y-sis of ex-ist-ing con-sen-sus mech-a
+-nisms, we now present the Radio-Optimized
+ []
+
+[14] [15]
+Overfull \hbox (21.01292pt too wide) in paragraph at lines 861--862
+[]\T1/cmr/bx/n/10.95 Lemma 1 (APoL Un-forge-abil-ity): \T1/cmr/m/n/10.95 Un-der
+ the dis-crete log-a-rithm as-sump-tion, no polynomially-
+ []
+
+[16]
+Overfull \hbox (0.59726pt too wide) in paragraph at lines 877--894
+ [][] 
+ []
+
+[17] [18] [19] [20]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+127.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+[21]
+Overfull \hbox (16.6769pt too wide) in paragraph at lines 1181--1181
+[]        \T1/cmtt/m/n/10.95 require(verifyAtmosphericLocationProof(locationPro
+of), "Invalid location");[] 
+ []
+
+
+Overfull \hbox (3.24059pt too wide) in paragraph at lines 1192--1193
+[]\T1/cmr/bx/n/10.95 Homoiconicity\T1/cmr/m/n/10.95 : Code and data share the s
+ame rep-re-sen-ta-tion, en-abling pow-er-ful metapro-
+ []
+
+[22] [23] [24] [25]
+
+! LaTeX Error: Unicode character ⋅ (U+22C5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1441 Energy (W⋅
+                   h/tx) & 0.08 & 0.12 & N/A & N/A & 1.5x \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (8.12456pt too wide) in paragraph at lines 1426--1444
+ [][] 
+ []
+
+[26] [27]
+Overfull \hbox (9.50133pt too wide) in paragraph at lines 1485--1486
+[]\T1/cmr/bx/n/10.95 ROC Pro-to-col Im-ple-men-ta-tion\T1/cmr/m/n/10.95 : Full 
+im-ple-men-ta-tion and test-ing of the Radio-Optimized
+ []
+
+
+Overfull \hbox (22.4399pt too wide) in paragraph at lines 1497--1498
+[]\T1/cmr/bx/n/10.95 Interoperability Pro-to-cols\T1/cmr/m/n/10.95 : Stan-dards
+ for in-ter-op-er-abil-ity be-tween dif-fer-ent ra-dio blockchain
+ []
+
+[28] [29] [30] (./bunker_coin.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `bunker_coin.out' has changed.
@@ -891,42 +962,44 @@ Package rerunfilecheck Warning: File `bunker_coin.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `bunker_coin.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C9980F03135FB1C899A97AE796DB48BA;12507.
+(rerunfilecheck)             Before: C9980F03135FB1C899A97AE796DB48BA;12507
+(rerunfilecheck)             After:  537299E7C03D9455223D1587B47AFF53;21329.
  ) 
 Here is how much of TeX's memory you used:
- 24576 strings out of 476106
- 464226 string characters out of 5793933
+ 24820 strings out of 476106
+ 468340 string characters out of 5793933
  1939975 words of memory out of 5000000
- 46006 multiletter control sequences out of 15000+600000
- 575838 words of font info for 76 fonts, out of 8000000 for 9000
+ 46107 multiletter control sequences out of 15000+600000
+ 576152 words of font info for 77 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  84i,16n,93p,815b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.60
-0pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1095.
-600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti080
-0.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1
-095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcr
-m1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1200.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecbx1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecrm1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1440.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecrm1000.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbx1000.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm1200.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bunker_coin.pdf (17 pages, 282550 bytes).
+ </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.60
+0pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.
+600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi109
+5.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0
+800.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
+i1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/t
+crm1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecbx1200.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecbx1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecbx1440.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm1000.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx1000.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecrm1200.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on bunker_coin.pdf (30 pages, 378151 bytes).
 PDF statistics:
- 876 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
- 180 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1412 PDF objects out of 1440 (max. 8388607)
+ 753 compressed objects within 8 object streams
+ 315 named destinations out of 1000 (max. 500000)
+ 541 words of extra memory for PDF output out of 10000 (max. 10000000)
 
