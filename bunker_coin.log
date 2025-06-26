@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.26)  26 JUN 2025 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.26)  26 JUN 2025 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,18 +769,6 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box95
 )
 (./bunker_coin.aux)
-Runaway argument?
-{\contentsline {subsubsection}{\numberline {4.2.1}Optimized Block Str\ETC.
-! File ended while scanning use of \@writefile.
-<inserted text> 
-                \par 
-l.41 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 \openout1 = `bunker_coin.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -801,6 +789,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -859,36 +848,12 @@ e
 ))
 Package hyperref Info: Link coloring ON on input line 41.
 
-(./bunker_coin.out)
-Runaway argument?
-{\376\377\000G\000o\000l\000d\000e\000n\000\040\000T\000i\000c\000k\0\ETC.
-! File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.41 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-(./bunker_coin.out)
-Runaway argument?
-{\376\377\000G\000o\000l\000d\000e\000n\000\040\000T\000i\000c\000k\0\ETC.
-! File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.41 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
+(./bunker_coin.out) (./bunker_coin.out)
 \@outlinefile=\write4
 \openout4 = `bunker_coin.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1019,20 +984,11 @@ ergy con-sump-tion scales
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32]
-
-LaTeX Warning: Reference `fig:throughput' on page 33 undefined on input line 17
-04.
-
-[33]
-
-LaTeX Warning: Reference `tab:error_correction' on page 34 undefined on input l
-ine 1735.
-
-[34] [35] [36]
-
-LaTeX Warning: Reference `tab:consensus_comparison' on page 37 undefined on inp
-ut line 1912.
+[31] [32] [33] [34] [35] [36]
+Overfull \hbox (6.3512pt too wide) in paragraph at lines 1912--1913
+\T1/cmr/m/n/10.95 Table [][]7[][] pro-vides a com-pre-hen-sive com-par-i-son of
+ con-sen-sus mech-a-nisms adapted for low-bandwidth
+ []
 
 
 Overfull \hbox (97.81975pt too wide) in paragraph at lines 1916--1938
@@ -1073,75 +1029,37 @@ Overfull \hbox (8.12456pt too wide) in paragraph at lines 2692--2710
  [][] 
  []
 
-[50] [51]
-Overfull \hbox (9.50133pt too wide) in paragraph at lines 2751--2752
-[]\T1/cmr/bx/n/10.95 ROC Pro-to-col Im-ple-men-ta-tion\T1/cmr/m/n/10.95 : Full 
-im-ple-men-ta-tion and test-ing of the Radio-Optimized
+[50]
+Overfull \hbox (4.37653pt too wide) in paragraph at lines 2747--2748
+[]\T1/cmr/bx/n/10.95 Radio-Optimized Con-sen-sus (ROC)\T1/cmr/m/n/10.95 : The i
+n-tro-duc-tion of at-mo-spheric proof-of-location
  []
 
-[52]
-Overfull \hbox (22.4399pt too wide) in paragraph at lines 2779--2780
-[]\T1/cmr/bx/n/10.95 Interoperability Pro-to-cols\T1/cmr/m/n/10.95 : Stan-dards
- for in-ter-op-er-abil-ity be-tween dif-fer-ent ra-dio blockchain
- []
+[51])
+Runaway argument?
+{Formal Verification Integration: The integration of formal verificat\ETC.
+! File ended while scanning use of \textbf .
+<inserted text> 
+                \par 
+<*> bunker_coin.tex
+                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-[53] [54] [55] (./bunker_coin.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
- ***********
+! Emergency stop.
+<*> bunker_coin.tex
+                   
+*** (job aborted, no legal \end found)
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `bunker_coin.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `bunker_coin.out':
-(rerunfilecheck)             Before: 650D72F5E8AD3D80A8E08F84B0E599B2;4096
-(rerunfilecheck)             After:  5E817AC63BC06794EEE11D179071B22D;44063.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 25042 strings out of 476106
- 470929 string characters out of 5793933
+ 25156 strings out of 476106
+ 472825 string characters out of 5793933
  1944975 words of memory out of 5000000
- 46061 multiletter control sequences out of 15000+600000
+ 46221 multiletter control sequences out of 15000+600000
  576152 words of font info for 77 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  84i,22n,93p,815b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1095.60
-0pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0800.
-600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt109
-5.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0
-800.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
-i1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/t
-crm1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecbx1200.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecbx1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm1095.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecbx1440.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecrm1000.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx1000.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecrm1200.600pk> </home/runner/.texlive2023/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bunker_coin.pdf (55 pages, 486960 bytes).
-PDF statistics:
- 1691 PDF objects out of 1728 (max. 8388607)
- 975 compressed objects within 10 object streams
- 583 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+!  ==> Fatal error occurred, no output PDF file produced!
