@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.26)  26 JUN 2025 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.26)  26 JUN 2025 10:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -881,7 +881,7 @@ Overfull \hbox (97.81975pt too wide) in paragraph at lines 650--672
  [][] 
  []
 
-[13] [14] [15] [16] (./bunker_coin.aux)
+[13] [14] [15] [16] [17] (./bunker_coin.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -890,8 +890,8 @@ Package rerunfilecheck Info: File `bunker_coin.out' has not changed.
 (rerunfilecheck)             Checksum: C9980F03135FB1C899A97AE796DB48BA;12507.
  ) 
 Here is how much of TeX's memory you used:
- 24641 strings out of 476106
- 465354 string characters out of 5793933
+ 24648 strings out of 476106
+ 465403 string characters out of 5793933
  1939975 words of memory out of 5000000
  46074 multiletter control sequences out of 15000+600000
  575838 words of font info for 76 fonts, out of 8000000 for 9000
@@ -918,10 +918,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bunker_coin.pdf (16 pages, 285876 bytes).
+Output written on bunker_coin.pdf (17 pages, 287454 bytes).
 PDF statistics:
- 1066 PDF objects out of 1200 (max. 8388607)
- 544 compressed objects within 6 object streams
- 173 named destinations out of 1000 (max. 500000)
+ 1077 PDF objects out of 1200 (max. 8388607)
+ 554 compressed objects within 6 object streams
+ 180 named destinations out of 1000 (max. 500000)
  541 words of extra memory for PDF output out of 10000 (max. 10000000)
 

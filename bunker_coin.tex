@@ -730,23 +730,33 @@ The choice of consensus mechanism involves several critical trade-offs:
 
 \section{Conclusion and Future Work}
 
-This paper presented Bunker Consensussy, a novel blockchain protocol designed for operation over shortwave radio networks with severe bandwidth constraints. Through the combination of recursive Poseidon hashing, Groth16 zero-knowledge proofs, and sophisticated error correction, Bunker Consensussy demonstrates that meaningful blockchain consensus is achievable even under extreme networking limitations.
+This paper presented Bunker Consensussy, a novel blockchain protocol designed for operation over shortwave radio networks with severe bandwidth constraints. Through the combination of recursive Poseidon hashing, Groth16 zero-knowledge proofs, and sophisticated error correction, Bunker Consensussy demonstrates that meaningful blockchain consensus is achievable even under extreme networking limitations. Furthermore, this work provides a comprehensive analysis of alternative consensus mechanisms that can enhance the protocol's robustness and versatility.
 
 The key innovations include:
 \begin{itemize}
 \item A coin-age-integrated VDF that provides fair consensus without excessive energy consumption
 \item A complete radio transmission protocol optimized for shortwave propagation characteristics
 \item Formal security guarantees under Byzantine adversaries and network partitions
+\item Comprehensive analysis of alternative consensus mechanisms adapted for low-bandwidth environments
+\item A detailed comparison matrix evaluating different consensus approaches for radio networks
+\item Theoretical frameworks for adaptive and hybrid consensus mechanisms
+\item Mathematical bounds on security and performance in constrained network environments
 \end{itemize}
 
 Experimental results validate the theoretical design, showing reliable operation under realistic atmospheric conditions with throughput sufficient for critical applications such as emergency communications and remote area connectivity.
 
 Future work will focus on:
 \begin{enumerate}
-\item Developing adaptive protocols that respond to changing atmospheric conditions
-\item Investigating integration with satellite communication systems
-\item Exploring applications in mesh networking and disaster response scenarios
-\item Optimizing the cryptographic primitives for embedded hardware deployment
+\item \textbf{Consensus mechanism prototyping}: Implement and evaluate the proposed alternative consensus mechanisms in simulated radio environments
+\item \textbf{Adaptive consensus framework}: Develop a practical system for dynamically switching between consensus mechanisms based on network conditions
+\item \textbf{Hybrid consensus optimization}: Investigate optimal combinations of PoS, BFT, and VDF elements for different operational scenarios
+\item \textbf{Radio-specific cryptographic primitives}: Design threshold signatures and aggregation schemes optimized for bandwidth constraints
+\item \textbf{Real-world testing}: Deploy pilot networks using amateur radio infrastructure to validate theoretical performance predictions
+\item \textbf{Atmospheric propagation integration}: Develop consensus mechanisms that leverage predictable ionospheric conditions for enhanced reliability
+\item \textbf{Cross-layer optimization}: Integrate physical layer error correction with consensus-layer fault tolerance
+\item \textbf{Emergency network protocols}: Design specialized consensus mechanisms for disaster response and humanitarian applications
+\item \textbf{Satellite integration}: Explore hybrid terrestrial-satellite consensus for global coverage
+\item \textbf{Hardware-optimized implementations}: Develop embedded hardware solutions for portable radio blockchain nodes
 \end{enumerate}
 
 Bunker Consensussy represents a fundamental advance in making blockchain technology accessible in the most challenging networking environments, opening new possibilities for decentralized systems in remote and emergency scenarios worldwide.
